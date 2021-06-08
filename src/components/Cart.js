@@ -24,9 +24,9 @@ class Cart extends Component {
     let addedItems = this.props.items.length ? (
       this.props.items.map((item) => {
         return (
-          <li className='collection-item avatar' key={item.id}>
+          <li className='collection-item' key={item.id}>
             <div className='item-img'>
-              <img src={item.img} alt={item.img} className='' />
+              <img src={item.img} alt={item.img} className='image' />
             </div>
 
             <div className='item-desc'>
@@ -73,8 +73,8 @@ class Cart extends Component {
         )
       })
     ) : (
-      <p>Nothing.</p>
-    )
+        <p>Nothing.</p>
+      )
     return (
       <div className='container'>
         <div className='cart'>

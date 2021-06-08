@@ -12,3 +12,29 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+
+.center {
+  text-align: center;
+}
+
+.tab {
+  min-width: 100%;
+}
+
+.root {
+  min-width: 650px;
+  overflow: hidden;
+}
+
+.imag {
+  width: 10%;
+}
+
+.collection-item {
+  list-style: none;
+  display: flex;
+}
+
+.image {
+  max-width: 50%;
+}
