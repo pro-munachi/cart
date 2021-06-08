@@ -10,7 +10,7 @@ import {
   Button,
   Typography,
 } from '@material-ui/core'
-import { IconButton, AddShoppingCartIcon } from '@material-ui/icons'
+import { IconButton } from '@material-ui/icons'
 import './style.css'
 
 class Home extends Component {
@@ -50,11 +50,8 @@ class Home extends Component {
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <IconButton color='primary' aria-label='add to shopping cart'>
-              <AddShoppingCartIcon />
-            </IconButton>
-            <Button size='small' color='primary'>
-              Learn More
+            <Button size='small' color='primary' to='/' onClick={() => { this.handleClick(item.id) }}>
+              Add To Cart
             </Button>
           </CardActions>
         </Card>
