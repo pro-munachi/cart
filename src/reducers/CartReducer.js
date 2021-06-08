@@ -11,10 +11,10 @@ const initState = {
     {
       id: 1,
       img:
-        'https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/29/933356/1.jpg?5857',
+        'https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/09/707707/1.jpg?9918',
       title: 'Brand: Hp | Similar products from Hp',
-      desc: 'Hp 15 AMD 3020e Dual Core 256GB SSD,8GB RAM, Wins 10',
-      price: '158,000',
+      desc: 'Hp DC 6000 SFF ( Windows 10 Pro And Office 2016 Preloaded)',
+      price: '142,000',
     },
     {
       id: 2,
@@ -37,28 +37,28 @@ const initState = {
     {
       id: 4,
       img:
-        'https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/29/933356/1.jpg?5857',
-      title: 'White',
+        'https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/76/027866/1.jpg?9576',
+      title: 'HP',
       desc:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.',
-      price: 260,
+        'Game One-hand Keyboard Mouse Set G92 6D Mouse With Pad',
+      price: '5,158',
     },
     {
       id: 5,
       img:
-        'https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/29/933356/1.jpg?5857',
-      title: 'Cropped-sho',
+        'https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/09/527986/1.jpg?3564',
+      title: 'acer',
       desc:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.',
-      price: 160,
+        'Mini Wireless Keyboard Game I 8 Air Mouse 2.4GHz With Backlight Touchpad For TV BOX Tablet PC',
+      price: '3,040',
     },
     {
       id: 6,
       img:
-        'https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/29/933356/1.jpg?5857',
-      title: 'Blues',
+        'https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/42/040992/1.jpg?7545',
+      title: 'lenovo',
       desc:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.',
+        'Wireless Touchpad Keyboard With Backlight - Black',
       price: 90,
     },
   ],

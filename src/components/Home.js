@@ -50,9 +50,9 @@ class Home extends Component {
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size='small' color='primary' to='/' onClick={() => { this.handleClick(item.id) }}>
+            <button className='add' to='/' onClick={() => { this.handleClick(item.id) }}>
               Add To Cart
-            </Button>
+            </button>
           </CardActions>
         </Card>
       )
@@ -60,7 +60,7 @@ class Home extends Component {
 
     return (
       <div className='container'>
-        <h1 className='center'>Our items</h1>
+        <h1 className='center'>Electronics</h1>
         <div className='box'>{itemList}</div>
       </div>
     )

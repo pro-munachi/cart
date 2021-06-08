@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
+import './style.css'
 //import { addShipping } from './actions/cartActions'
 class Recipe extends Component {
   componentWillUnmount() {
@@ -16,8 +17,8 @@ class Recipe extends Component {
 
   render() {
     return (
-      <div className='container'>
-        <div className='collection'>
+      <div className='containers'>
+        <div className='collections'>
           <li className='collection-item'>
             <label>
               <input
@@ -25,15 +26,12 @@ class Recipe extends Component {
                 ref='shipping'
                 onChange={this.handleChecked}
               />
-              <span>Shipping(+6$)</span>
+              <span>Shipping(+5000<span>&#8358;</span>)</span>
             </label>
           </li>
           <li className='collection-item'>
-            <b>Total: {this.props.total} $</b>
+            <b>Total: <span>&#8358;</span>{this.props.total} </b>
           </li>
-        </div>
-        <div className='checkout'>
-          <button className='waves-effect waves-light btn'>Checkout</button>
         </div>
       </div>
     )

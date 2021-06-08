@@ -7,6 +7,9 @@ import {
   subtractQuantity,
 } from '../actions/CartActions'
 import Recipe from './Recipe'
+import Delete from '@material-ui/icons/Delete'
+import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward';
+import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
 class Cart extends Component {
   //to remove the item completely
   handleRemove = (id) => {
@@ -33,7 +36,7 @@ class Cart extends Component {
               <span className='title'>{item.title}</span>
               <p>{item.desc}</p>
               <p>
-                <b>Price: {item.price}$</b>
+                <b>Price: <span>&#8358;</span>{item.price}</b>
               </p>
               <p>
                 <b>Quantity: {item.quantity}</b>
@@ -46,7 +49,7 @@ class Cart extends Component {
                       this.handleAddQuantity(item.id)
                     }}
                   >
-                    arrow_drop_up
+                    <ArrowUpwardIcon />
                   </i>
                 </Link>
                 <Link to='/cart'>
@@ -56,29 +59,29 @@ class Cart extends Component {
                       this.handleSubtractQuantity(item.id)
                     }}
                   >
-                    arrow_drop_down
+                    <ArrowDownwardIcon />
                   </i>
                 </Link>
               </div>
               <button
-                className='waves-effect waves-light btn pink remove'
+                className='remove'
                 onClick={() => {
                   this.handleRemove(item.id)
                 }}
               >
-                Remove
+                <Delete />
               </button>
             </div>
           </li>
         )
       })
     ) : (
-        <p>Nothing.</p>
+        <p>Your Cart Is Empty</p>
       )
     return (
       <div className='container'>
         <div className='cart'>
-          <h5>You have ordered:</h5>
+          <h5 className='header'>You have ordered:</h5>
           <ul className='collection'>{addedItems}</ul>
         </div>
         <Recipe />

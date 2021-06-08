@@ -9,6 +9,7 @@ import {
 } from '@material-ui/core'
 import MenuIcon from '@material-ui/icons/Menu'
 import { Link } from 'react-router-dom'
+import './style.css'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -35,12 +36,11 @@ export default function ButtonAppBar() {
             color='inherit'
             aria-label='menu'
           >
-            <MenuIcon />
           </IconButton>
           <Typography variant='h6' className={classes.title}>
-            <Link to='/'>E-Commerce</Link>
+            <Link to='/' className='logo'>E-Commerce</Link>
           </Typography>
-          <Link to='/cart'>
+          <Link to='/cart' className='link'>
             <Button color='inherit'>Cart</Button>
           </Link>
         </Toolbar>
