@@ -10,27 +10,34 @@ const initState = {
   items: [
     {
       id: 1,
-      title: 'Winter body',
-      desc:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.',
-      price: 110,
+      img:
+        'https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/29/933356/1.jpg?5857',
+      title: 'Brand: Hp | Similar products from Hp',
+      desc: 'Hp 15 AMD 3020e Dual Core 256GB SSD,8GB RAM, Wins 10',
+      price: '158,000',
     },
     {
       id: 2,
-      title: 'Adidas',
+      img:
+        'https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/88/756752/1.jpg?2008',
+      title: 'Brand: Hp | Similar products from Hp',
       desc:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.',
-      price: 80,
+        'Hp Prodesk 600 Sff - Intel Core I3 - 4GB RAM - 500GB HDD - Windows 10 Pro & Office 2016 Preloaded',
+      price: '149,999',
     },
     {
       id: 3,
-      title: 'Vans',
+      img:
+        'https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/09/707707/1.jpg?9918',
+      title: 'Brand: Lenovo | Similar products from Lenovo',
       desc:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.',
-      price: 120,
+        'Lenovo IdeaPad 14 Notebook AMD A6-Series 4GB AMD Radeon 64GB Win 10',
+      price: '144,000',
     },
     {
       id: 4,
+      img:
+        'https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/29/933356/1.jpg?5857',
       title: 'White',
       desc:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.',
@@ -38,6 +45,8 @@ const initState = {
     },
     {
       id: 5,
+      img:
+        'https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/29/933356/1.jpg?5857',
       title: 'Cropped-sho',
       desc:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.',
@@ -45,6 +54,8 @@ const initState = {
     },
     {
       id: 6,
+      img:
+        'https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/29/933356/1.jpg?5857',
       title: 'Blues',
       desc:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ex.',
